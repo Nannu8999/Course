@@ -1,0 +1,168 @@
+{
+    "menus": [
+        {
+            "id": 1,
+            "title": "Dashboard",
+            "icon": "fas fa-home",
+            "path": "/dashboard"
+        },
+        {
+            "id": 2,
+            "title": "Course Catalog",
+            "icon": "fas fa-book",
+            "path": "/coursecatalog"
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "title": "React Basics",
+            "description": "Learn the fundamentals of React including components, props, and state.",
+            "image": "CourseImages/3426526.jpg"
+        },
+        {
+            "id": 2,
+            "title": "JavaScript Mastery",
+            "description": "Deep dive into modern JavaScript features and asynchronous programming.",
+            "image": "CourseImages/c-622435_1280.jpg"
+        },
+        {
+            "id": 3,
+            "title": "UI/UX Design",
+            "description": "Understand design principles and create visually appealing interfaces.",
+            "image": "CourseImages/html-css-collage-concept-with-person.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Node.js Essentials",
+            "description": "Build scalable backend services using Node.js and Express.",
+            "image": "CourseImages/person-front-computer-working-html.jpg"
+        },
+        {
+            "id": 5,
+            "title": "HTML & CSS Fundamentals",
+            "description": "Master the basics of web structure and styling with HTML and CSS.",
+            "image": "CourseImages/woman-3597095_1280.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Python for Beginners",
+            "description": "Get started with Python programming and data structures.",
+            "image": "CourseImages/3426526.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Data Structures & Algorithms",
+            "description": "Sharpen your problem-solving skills with classic algorithms.",
+            "image": "CourseImages/3426526.jpg"
+        },
+        {
+            "id": 8,
+            "title": "DevOps Basics",
+            "description": "Learn about CI/CD pipelines, Docker, and cloud deployments.",
+            "image": "CourseImages/3426526.jpg"
+        },
+        {
+            "id": 9,
+            "title": "TypeScript Crash Course",
+            "description": "Upgrade your JS codebase with strong typing using TypeScript.",
+            "image": "CourseImages/3426526.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Database Design",
+            "description": "Learn relational database modeling and SQL essentials.",
+            "image": "CourseImages/3426526.jpg"
+        }
+    ],
+    "quizeQuestions": [
+        {
+            "id": 1,
+            "question": "What is the main purpose of React?",
+            "options": [
+                "To build mobile apps",
+                "To manage databases",
+                "To build user interfaces",
+                "To style websites"
+            ],
+            "answer": "To build user interfaces"
+        },
+        {
+            "id": 2,
+            "question": "What is a component in React?",
+            "options": [
+                "A function that returns HTML",
+                "A JavaScript library",
+                "A CSS class",
+                "A database table"
+            ],
+            "answer": "A function that returns HTML"
+        },
+        {
+            "id": 3,
+            "question": "Which hook is used to manage state in a functional component?",
+            "options": [
+                "useState()",
+                "useEffect()",
+                "useRef()",
+                "useContext()"
+            ],
+            "answer": "useState()"
+        },
+        {
+            "id": 4,
+            "question": "What does JSX stand for?",
+            "options": [
+                "JavaScript XML",
+                "Java Syntax Extension",
+                "JavaScript Extension",
+                "JavaScript Execution"
+            ],
+            "answer": "JavaScript XML"
+        },
+        {
+            "id": 5,
+            "question": "Which hook is used to perform side effects in React?",
+            "options": [
+                "useMemo()",
+                "useEffect()",
+                "useReducer()",
+                "useCallback()"
+            ],
+            "answer": "useEffect()"
+        },
+        {
+            "id": 6,
+            "question": "What is the virtual DOM?",
+            "options": [
+                "A copy of the real DOM that React uses to optimize rendering",
+                "A tool for debugging React apps",
+                "The DOM created by JavaScript",
+                "A React hook"
+            ],
+            "answer": "A copy of the real DOM that React uses to optimize rendering"
+        },
+        {
+            "id": 7,
+            "question": "How do you pass data from parent to child in React?",
+            "options": [
+                "Using props",
+                "Using state",
+                "Using events",
+                "Using context"
+            ],
+            "answer": "Using props"
+        },
+        {
+            "id": 8,
+            "question": "Which method is used to render a React component to the DOM?",
+            "options": [
+                "ReactDOM.render()",
+                "renderComponent()",
+                "React.render()",
+                "React.create()"
+            ],
+            "answer": "ReactDOM.render()"
+        }
+    ]
+}
